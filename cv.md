@@ -1,5 +1,5 @@
 # Lyidmila Zakharova
-## Contacs
+##  My Contacs
 * tel: 89194303600
 * email: Zaharova-L.A@yandex.ru
 ## About me
@@ -19,7 +19,7 @@ My strengths are:
 const number = 923.2238;
 console.log(Math.ceil(number));
 ```
-## Education
+## My Education
 Higher technical (engineering). And at the moment I am studying at Rolling scopes School
-## English level
+## My English level
 **B1/B2**
