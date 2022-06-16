@@ -7,89 +7,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cv</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="RSSCHOOL-CV/favicon.ico">
+    <link rel="icon" href="rsschool-cv/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <ul class="nav-list">
+        <li class="nav-item"><a href="#My contacts" class="nav-link">My contacts</a></li>
+        <li class="nav-item"><a href="#About me" class="nav-link">About me</a></li>
+        <li class="nav-item"><a href="#My skills" class="nav-link ">My skills</a></li>
+        <li class="nav-item"><a href="#Examples of my code" class="nav-link">Examples of my code</a></li>
+        <li class="nav-item"><a href="#My Education" class="nav-link">My Education</a></li>
+        <li class="nav-item"><a href="#My English level" class="nav-link">My English level</a></li>
+    </ul>
+    </nav>
+    <h1 class="section-title">Lyidmila Zakharova</h1>
+    <h2>Junior Frontend Developer </h2>
+    <img src=" 56542263_354527448505220_3393788723853262848_n.jpg" alt="me" class="round" width="300" height="300">
 
     <header class="header">
-        <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#My contacts" class="nav-link">My contacts</a></li>
-                <li class="nav-item"><a href="#About me" class="nav-link">About me</a></li>
-                <li class="nav-item"><a href="#My skills" class="nav-link">My skills</a></li>
-                <li class="nav-item"><a href="#Examples of my code" class="nav-link">Examples of my code</a></li>
-                <li class="nav-item"><a href="#My Education" class="nav-link">My Education</a></li>
-                <li class="nav-item"><a href="#My English level" class="nav-link">My English level</a></li>
-            </ul>
-        </nav>
-        <div class="container">
-
-            <h1>Lyidmila Zakharova</h1>
-            <img src="56542263_354527448505220_3393788723853262848_n.jpg" alt="me" width="150" height="150">
-
-            <section>
-                <h2>My contacts:</h2>
-                <p>tel: 89194303600</p>
-                <p>email: Zaharova-L.A@yandex.ru</p>
+        <div class="contacts">
+            <section class="section" id="profile">
+                <h2 class="section-title">My contacts:</h2>
+                <p><b>location: Moscow</b></p>
+                <p><b>tel: 89194303600</b></p>
+                <p><b>email: Zaharova-L.A@yandex.ru</b></p>
             </section>
-
-
         </div>
     </header>
-    <main class=" main ">
-        <div class="container">
-            <section>
-                <h2>About me</h2>
-                <p>I work as a chief technologist in the meat industry. I have a higher education. But at the moment I am temporarily on maternity leave. I have been wanting to change my profession and field for a long time. The IT sphere has always been
-                    very attractive. I clearly decided for myself that I would do it. I do not doubt my success, as I am confident in my abilities and my perseverance.</p>
-                <ul>My strengths are:
-                    <li>Perseverance</li>
-                    <li>A great desire to learn</li>
-                    <li>Learn new things</li>
-                    <li>Organization</li>
-
-                </ul>
-            </section>
-            <section>
-                <h2>My skills</h2>
-                <ol>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JAVASCRIPT</li>
-                </ol>
-            </section>
-            <section>
-                <h2>Examples of my code</h2>
-                <pre>
-        const number = 923.2238; 
+    <main class="main-container">
+        <section class="section" id="me">
+            <h2 class="section-title">About me</h2>
+            <p>I work as a chief technologist in the meat industry. I have a higher education. But at the moment I am temporarily on maternity leave. I have been wanting to change my profession and field for a long time. The IT sphere has always been very
+                attractive. I clearly decided for myself that I would do it. I do not doubt my success, as I am confident in my abilities and my perseverance.</p>
+            <ul>My strengths are:
+                <li>Perseverance</li>
+                <li>A great desire to learn</li>
+                <li>Learn new things</li>
+                <li>Organization</li>
+            </ul>
+        </section>
+        <section class="section" id="skills">
+            <h2 class="section-title">My skills</h2>
+            <ol>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JAVASCRIPT</li>
+                <li>Git, GitHub</li>
+            </ol>
+        </section>
+        <section class="section" id="code">
+            <h2 class="section-title">Examples of my code</h2>
+            <pre>
+        const number = 923.2238;
         console.log(Math.ceil(number));
         </pre>
-            </section>
-            <section>
-                <h2>My Education</h2>
-                <p>Higher technical (engineering). And at the moment I am studying at Rolling scopes School</p>
-            </section>
-            <section>
-                <h2>My English level</h2>
-                B1/B2
-            </section>
-        </div>
-    </main>
-    <footer class=" footer ">
-        <div class="container">
-            <section>
-                <h3>Lyidmila Zakharova</h3>
-                <time datetime="2022-06-15 ">15 june 2022 year</time>
-                <a href="https://github.com/noya2021 " my link in githab></a>
-
-                <img src="https://rs.school/images/rs_school_js.svg " width="80 " height="80 ">
-
-            </section>
-        </div>
-    </footer>
-
-</html>
+        </section>
+        <section class="section" id="education ">
+            <h2 class="section-title ">My Education</h2>
+            <p>Higher technical (engineering). And at the moment I am studying at Rolling scopes School</p>
+        </section>
+        <section class="section" id="English">
+            <h2 class="section-title">My English level</h2>
+            B1/B2
+        </section>
+</body>
+</div>
+</main>
+<footer>
+    <section class="section" id="end">
+        <time datetime="2022-06-15 ">15 june 2022 year</time>
+        <img src="https://rs.school/images/rs_school_js.svg" width="80" height="80">
+        <a href="https://rs.school/js/"> WELCOME!></a>
